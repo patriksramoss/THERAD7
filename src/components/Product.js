@@ -89,10 +89,10 @@ const ProductWrapper = styled.div`
       overflow: hidden;
     }
     .card-img-top {
-      transition: all 1s linear;
+      transition: all 0.1s ease-in;
     }
     .img-container:hover .card-img-top{
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
     .cart-btn{
       position: absolute;
@@ -105,7 +105,7 @@ const ProductWrapper = styled.div`
       font-size: 1.4rem;
       border-radius: 0.5rem 0 0 0;
       transform: translate(100%, 100%);
-      transition: all 1s linear;
+      transition: all 0.3s ease-in;
     }
     .img-container: hover .cart-btn {
       transform: translate(0,0);
